@@ -1,0 +1,14 @@
+.our-services {
+    padding: 10px 5px;
+  }
+  
+h2 {
+    color: navy;
+    font-weight: bold;
+}
+  
+.service-section p {
+    font-size: 1.1rem;
+    color: black;
+    line-height: 1.6;
+}

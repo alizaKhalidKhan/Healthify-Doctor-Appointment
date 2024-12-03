@@ -1,0 +1,86 @@
+/* Apply a navy blue background for the entire page */
+.about-section {
+  background-color: #ffffff; /* White */
+  color: #003366; /* Blue text color for the body */
+  margin: 0;
+}
+
+/* About Section */
+.about-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #003366; /* Blue for heading */
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container .para {
+  font-size: 1.1rem;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Card Styling */
+.card {
+  background-color: rgba(226, 226, 255, 0.877); /* White background for cards */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  color: navy; 
+}
+h2{
+  font-weight: bold;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Image inside card */
+.card-img-top {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 530px;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Card Body Text */
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #003366; /* Navy Blue */
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #003366; /* Grey text for description */
+  margin-bottom: 15px;
+}
+
+
+
+/* Responsive Layout */
+.row {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .row-cols-1 .col {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about-section h1 {
+    font-size: 2rem;
+  }
+
+  .card-img-top {
+    height: 300px;
+  }
+}

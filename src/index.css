@@ -1,0 +1,108 @@
+.button{
+  background-color: navy !important;
+}
+h1{
+  font-weight: bold !important;
+}
+.button:hover{
+  background-color: transparent !important;
+  border-color: navy !important;
+  border-width: 2px !important;
+  color: navy !important;
+}
+/*Navbar*/
+.nav-link:hover {
+  color: navy !important; /* Dark Blue on Hover */
+  font-weight: bold;
+}
+.nav-link{
+  font-weight: bold !important;
+}
+.heading{
+  color: navy !important;
+}
+
+/*Caraousel*/
+.carousel-item img{
+  height: 700px;
+  filter: brightness(30%);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+.carousel-item img:hover {
+  transform: scale(1.05);
+}
+.carousel-text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.carousel-text-overlay h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.carousel-text-overlay p {
+  font-size: 1.2rem;
+}
+/* Footer Styles */
+.custom-footer {
+  background-color: rgba(226, 226, 255, 0.877);
+  color: navy;
+  padding: 40px 20px;
+  border-top: 3px solid blue; /* Dark purple border at the top */
+}
+
+.custom-footer h5 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.custom-footer p {
+  font-size: 1rem;
+  color: black;
+}
+
+.custom-footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.custom-footer ul li {
+  margin-bottom: 10px;
+}
+
+.custom-footer ul li a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.custom-footer ul li a:hover {
+  color: navy;
+  text-decoration: underline;
+}
+
+.custom-footer .text-center p {
+  font-size: 1rem;
+  color: navy;
+}
+
+/* Transition effect for hover states */
+.custom-footer ul li a,
+.custom-footer .text-center p {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.custom-footer ul li a:hover,
+.custom-footer .text-center p:hover {
+  color: navy;
+  transform: scale(1.05);
+}
